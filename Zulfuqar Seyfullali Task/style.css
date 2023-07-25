@@ -1,0 +1,70 @@
+
+body {
+    background-color: #f5f5f5;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+
+  .factsMain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .factsMainHeading {
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    letter-spacing: -0.05em;
+    margin-bottom: 30px;
+  }
+  
+  .factsSecondaryHeading {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: -0.03em;
+    margin-bottom: 20px;
+  }
+  
+  .factList {
+    width: 100%;
+  }
+  
+  .factItem {
+    border-bottom: 2px solid #e6e6e6;
+    padding: 10px 0;
+  }
+  
+  .factDesription {
+    font-size: large;
+    font-weight: 340px;
+    line-height: 40px;
+    letter-spacing: -0.03em;
+    min-height: 65px;
+    display: flex;
+    align-items: center;
+  }
+  @media screen and (max-width: 768px) {
+    .factsMainHeading {
+      font-size: 64px;
+    }
+  
+    .factsSecondaryHeading {
+      font-size: 32px;
+    }
+  
+    .factDesription {
+      font-size: 24px;
+      line-height: 30px;
+    }
+  }
+  
+
